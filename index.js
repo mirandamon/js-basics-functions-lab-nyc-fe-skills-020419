@@ -4,3 +4,7 @@ const headquartersBlock = 42
 function distanceFromHqInBlocks(block) {
   return Math.abs(block - headquartersBlock)
 }
+
+function distanceFromHqInFeet() {
+  
+}
