@@ -16,4 +16,5 @@ function distanceTravelledInFeet(block1, block2) {
   // 43 -> 11352
   // 48 -> 12672
   return Math.abs((block1 * feetPerBlock) - (block2 * feetPerBlock))
+  return Math.abs(block2 - block1) * feetPerBlock
 }
